@@ -1,0 +1,96 @@
+---------------------------------------------------------
+Home page --- loaded successfully
+<https://boldcommerce.com/> --- URL is correct
+<Bold Commerce | Modular Commerce Solutions - Sell Anywhere> --- title is correct
+---------------------------------------------------------
+Scenario_01 started
+---------------------------------------------------------
+Contact Sales --- loaded successfully
+<https://boldcommerce.com/contact/sales> --- URL is correct
+<Contact Sales | Bold Commerce> --- title is correct
+---------------------------------------------------------
+Contact Sales form filled successfully, with following details:
+-------------------------------------
+  Field: Details                     
+-------------------------------------
+  Email: Chelsea.Garrison@yahoo.com  
+  First name: Chelsea                
+  Last name: Garrison                
+  Phone number: +1 (462) 661-7514    
+  Company name: Facilis              
+  Website URL: Facilis.ca            
+  Business type: Technology partner  
+  eCommerce platform: -              
+  Approximate annual revenue: -      
+-------------------------------------
+---------------------------------------------------------
+Scenario_01 completed at 2022-03-01 15:13:02.753215
+---------------------------------------------------------
+Scenario_02 started
+---------------------------------------------------------
+Contact Sales --- loaded successfully
+<https://boldcommerce.com/contact/sales> --- URL is correct
+<Contact Sales | Bold Commerce> --- title is correct
+---------------------------------------------------------
+Contact Sales form filled successfully, with following details:
+-------------------------------------------------
+  Field: Details                                 
+-------------------------------------------------
+  Email: Chelsea.Garrison@yahoo.com              
+  First name: Chelsea                            
+  Last name: Garrison                            
+  Phone number: +1 (462) 661-7514                
+  Company name: Facilis                          
+  Website URL: Facilis.ca                        
+  Business type: Brand/Retailer                  
+  eCommerce platform: SAP Commerce Cloud/HYbris  
+  Approximate annual revenue: $500K - $2M        
+-------------------------------------------------
+---------------------------------------------------------
+Scenario_02 completed at 2022-03-01 15:13:30.936831
+---------------------------------------------------------
+Scenario_03 started
+---------------------------------------------------------
+Contact Sales --- loaded successfully
+<https://boldcommerce.com/contact/sales> --- URL is correct
+<Contact Sales | Bold Commerce> --- title is correct
+---------------------------------------------------------
+Contact Sales form filled successfully, with following details:
+----------------------------------------
+  Field: Details                        
+----------------------------------------
+  Email: Chelsea.Garrison@yahoo.com     
+  First name: Chelsea                   
+  Last name: Garrison                   
+  Phone number: +1 (462) 661-7514       
+  Company name: Facilis                 
+  Website URL: Facilis.ca               
+  Business type: Brand/Retailer         
+  eCommerce platform: Custom cart       
+  Approximate annual revenue: $2M-$50M  
+----------------------------------------
+---------------------------------------------------------
+Scenario_03 completed at 2022-03-01 15:14:00.616362
+---------------------------------------------------------
+Scenario_04 started
+---------------------------------------------------------
+Contact Sales --- loaded successfully
+<https://boldcommerce.com/contact/sales> --- URL is correct
+<Contact Sales | Bold Commerce> --- title is correct
+---------------------------------------------------------
+Contact Sales form filled successfully, with following details:
+-------------------------------------
+  Field: Details                     
+-------------------------------------
+  Email: Chelsea.Garrison@yahoo.com  
+  First name: Chelsea                
+  Last name: Garrison                
+  Phone number: +1 (462) 661-7514    
+  Company name: Facilis              
+  Website URL: Facilis.ca            
+  Business type: Technology partner  
+  eCommerce platform: -              
+  Approximate annual revenue: -      
+-------------------------------------
+---------------------------------------------------------
+Scenario_04 completed at 2022-03-01 15:14:25.557277
