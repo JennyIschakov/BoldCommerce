@@ -85,38 +85,7 @@ class ContactSales(unittest.TestCase):
         methods.test_completed('Scenario_03')
 
 
-        # ---------------------------------- Scenario_04
-        # Description: Contact Sales via fourth button in header
-
-        # Navigating to the home page
-        driver.get(locators.home_page_url)
-
-        print(divider)
-        print(f'Scenario_04 started at {datetime.datetime.now()}')
-        print('Description: Contact Sales via fourth button in header')
-        # Go down + a little bit up >> in order Contact Sales will appear in header
-        # Scroll down till bottom
-        sleep(1)
-        driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        sleep(1)
-        # Go up to <h2>Bold insights for the future of ecommerce</h2>
-        element = driver.find_element(By.XPATH, '//h2[text() = "Bold insights for the future of ecommerce"]')
-        actions = ActionChains(driver)
-        actions.move_to_element(element).perform()
-
-        sleep(3)
-        # Navigate to contact sales form
-        element2 = driver.find_element(By.XPATH, '//a[text() = "Contact Sales" and contains(@class,"btn-outline-light")]').click()
-        driver.execute_script('arguments[0].click();', element2)
-
-        # Validate URL and title
-        methods.check_page_url_title('Contact Sales','https://boldcommerce.com/contact/sales', 'Contact Sales | Bold Commerce')
-
-        # Contact sales - fill form
-        methods.contact_sales_form()
-
-        # test  completed
-        methods.test_completed('Scenario_04')
+ 
 
 
         # ===================================================''
