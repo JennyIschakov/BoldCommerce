@@ -96,7 +96,9 @@ class ContactSales(unittest.TestCase):
         print('Description: Contact Sales via fourth button in header')
         # Go down + a little bit up >> in order Contact Sales will appear in header
         # Scroll down till bottom
+        sleep(1)
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+        sleep(2)
         # Go up to <h2>Bold insights for the future of ecommerce</h2>
         element = driver.find_element(By.XPATH, '//h2[text() = "Bold insights for the future of ecommerce"]')
         actions = ActionChains(driver)
