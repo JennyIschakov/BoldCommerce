@@ -98,13 +98,13 @@ class ContactSales(unittest.TestCase):
         # Scroll down till bottom
         sleep(1)
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        sleep(2)
+        sleep(1)
         # Go up to <h2>Bold insights for the future of ecommerce</h2>
         element = driver.find_element(By.XPATH, '//h2[text() = "Bold insights for the future of ecommerce"]')
         actions = ActionChains(driver)
         actions.move_to_element(element).perform()
 
-        sleep(1)
+        sleep(3)
         # Navigate to contact sales form
         driver.find_element(By.XPATH, '//a[text() = "Contact Sales" and contains(@class,"btn-outline-light")]').click()
 
