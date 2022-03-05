@@ -106,7 +106,8 @@ class ContactSales(unittest.TestCase):
 
         sleep(3)
         # Navigate to contact sales form
-        driver.find_element(By.XPATH, '//a[text() = "Contact Sales" and contains(@class,"btn-outline-light")]').click()
+        element2 = driver.find_element(By.XPATH, '//a[text() = "Contact Sales" and contains(@class,"btn-outline-light")]').click()
+        driver.execute_script('arguments[0].click();', element2)
 
         # Validate URL and title
         methods.check_page_url_title('Contact Sales','https://boldcommerce.com/contact/sales', 'Contact Sales | Bold Commerce')
